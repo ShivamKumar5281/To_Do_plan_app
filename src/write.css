@@ -1,0 +1,64 @@
+.write {
+
+    position: absolute;
+    top: 240px;
+}
+.write > .input {
+    width: 1200px;
+    height: 30px;
+    
+    border: 1px  solid rgb(104, 27, 213);
+    outline-color:rgb(104, 27, 213);
+    
+
+}
+.write > button{
+    height: 37px;
+    background-color: aqua;
+    border: 1px solid violet;
+    border-radius: 12px;
+    
+    
+    
+}
+.write > button > span {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(128, 81, 0);
+}
+.write > .input::placeholder{
+    color: orangered;
+}
+.write > button:hover{
+    cursor: pointer;
+    background-color: gold;
+}
+
+
+.container{
+    display: inline-block;
+    position: absolute;
+    top:350px;
+    height: 100vh;
+    width:100vw;
+    background-color: violet;
+}
+.container > ul >li > .remove{
+    position: absolute;
+    left:1260px;
+    background-color: rgb(0, 255, 140);
+    width: 60px;
+    border: 1px solid  black;
+    border-radius: 15px;
+    text-align: center;
+}
+.container > ul > li{
+    height: 30px;
+    color: rgb(8, 0, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.container > ul > li > .remove:hover{
+         background-color: red;
+         cursor: pointer;
+}

@@ -1,0 +1,10 @@
+footer {
+    position: absolute;
+    top:1080px;
+    background-color: purple;
+    color: white;
+    width: 100vw;
+}
+footer > h1 {
+    text-align: center;
+}
